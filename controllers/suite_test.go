@@ -30,8 +30,9 @@ import (
 	logf "sigs.k8s.io/controller-runtime/pkg/log"
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 
-	batchv1 "kubebuilder/api/v1"
-	batchv2 "kubebuilder/api/v2"
+	batchv1 "github.com/chenliu1993/kbuilder-example/api/v1"
+
+	batchv2 "github.com/chenliu1993/kbuilder-example/api/v2"
 	// +kubebuilder:scaffold:imports
 )
 

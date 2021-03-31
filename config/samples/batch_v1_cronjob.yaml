@@ -1,7 +1,7 @@
 apiVersion: batch.tutorial.kubebuilder.io/v1
 kind: CronJob
 metadata:
-  name: cronjob-sample
+  name: cronjob-sample-v1
 spec:
   schedule: "*/1 * * * *"
   startingDeadlineSeconds: 60

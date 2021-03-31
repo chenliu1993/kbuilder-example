@@ -1,4 +1,4 @@
-module kubebuilder
+module github.com/chenliu1993/kbuilder-example
 
 go 1.13
 

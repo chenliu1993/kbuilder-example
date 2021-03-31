@@ -27,9 +27,11 @@ import (
 	ctrl "sigs.k8s.io/controller-runtime"
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 
-	batchv1 "kubebuilder/api/v1"
-	batchv2 "kubebuilder/api/v2"
-	"kubebuilder/controllers"
+	"github.com/chenliu1993/kbuilder-example/controllers"
+
+	batchv1 "github.com/chenliu1993/kbuilder-example/api/v1"
+
+	batchv2 "github.com/chenliu1993/kbuilder-example/api/v2"
 	// +kubebuilder:scaffold:imports
 )
 

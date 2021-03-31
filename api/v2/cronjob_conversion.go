@@ -2,8 +2,9 @@ package v2
 
 import (
 	"fmt"
-	v1 "kubebuilder/api/v1"
 	"strings"
+
+	v1 "github.com/chenliu1993/kbuilder-example/api/v1"
 
 	"sigs.k8s.io/controller-runtime/pkg/conversion"
 )
