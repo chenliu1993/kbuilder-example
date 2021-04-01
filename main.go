@@ -30,8 +30,6 @@ import (
 	"github.com/chenliu1993/kbuilder-example/controllers"
 
 	batchv1 "github.com/chenliu1993/kbuilder-example/api/v1"
-
-	batchv2 "github.com/chenliu1993/kbuilder-example/api/v2"
 	// +kubebuilder:scaffold:imports
 )
 
@@ -45,7 +43,6 @@ func init() {
 
 	_ = kbatchv1.AddToScheme(scheme)
 	_ = batchv1.AddToScheme(scheme)
-	_ = batchv2.AddToScheme(scheme)
 	// +kubebuilder:scaffold:scheme
 }
 
